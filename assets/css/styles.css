@@ -19,6 +19,16 @@
     height: auto;
 }
 
+.mapas img{
+    max-width: 100%;
+    height: auto;
+    transition: all 300ms ease-in-out;
+}
+
+.mapas img:hover {
+    transform: scale(1.02,1.02);
+}
+
 .top3-content {
     max-width: 80rem;
     display: flex;
